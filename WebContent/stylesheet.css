@@ -1,0 +1,89 @@
+h2{
+    color: darkslateblue;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: purple;
+    margin-bottom: 30px;
+}
+
+h3{
+    color: purple;
+    margin-bottom: 30px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+
+label{
+    color: purple;
+    font-weight: bold;
+}
+
+input[type="button"]{
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    background-color:  rgb(68, 2, 99);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: indigo;
+}
+
+button{
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    background-color: rgb(68, 2, 99);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-sections {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* space between the 3 sections */
+    align-items: flex-start;
+    flex-wrap: wrap; /* wraps if screen is small */
+    margin-top: 20px;
+}
+
+
+.top-right-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 10px 16px;
+    background-color: rgb(68, 2, 99);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.top-right-btn:hover {
+    background-color: rgb(68, 2, 99);
+}
