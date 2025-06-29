@@ -87,7 +87,7 @@ whereas admin or staff can view, update and keep track of inventory and order in
 ```
 
 | Parameter | Type     | Description                              | Required |
-| :-------- | :------- | :------------------------------------- --|----------|
+| :-------- | :------- | :----------------------------------------|----------|
 | `None`    |`None`    | `Returns all the Items in the inventory` | `No`     |
 
 #### Get items by category
