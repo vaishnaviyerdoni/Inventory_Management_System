@@ -57,11 +57,11 @@ The Inventory Management System is built in *Java Programming Language* for back
 ```bash
   jar -cvf InventorySystem.war -C WebContent/ .
 ```
-6. Go to following link to register and you'll be redirected to Login.
+6. Go to following link to register, and after successful registration you'll be redirected to Login Page.
 ```bash
   http://localhost:8080/InventorySystem/User/register.html
 ```
-7. You're ready to use the System!
+7. Once logged in you're ready to use the System!
 
     
 ## Usage
@@ -71,7 +71,7 @@ http://localhost:8080/InventorySystem/User/register.html
 ```
 Once registered successfully, you can login and based on your role: Admin, Staff or Customer, you will be taken to the respective Dashboard.
 
-You can navigate the dashboard using the buttons and each button will take you to your desired page, like a user can place order, update their credentials. Admin can delete the unnecessary records
+You can navigate the dashboard using the buttons and each button will take you to your desired page. A user can place order, update their credentials. Admin can delete the unnecessary records
 whereas admin or staff can view, update and keep track of inventory and order information.
 
 
